@@ -33,9 +33,6 @@ public class CrearCelulares extends AppCompatActivity {
         String opc[] = res.getStringArray(R.array.colores);
         ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,opc);
         colores.setAdapter(adapter1);
-
-        /*marcas.setAdapter(adapter);
-        colores.setAdapter(adapter1);*/
     }
 
     public void crear(View v){

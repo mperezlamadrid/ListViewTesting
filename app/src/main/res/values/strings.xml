@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">ListViewTesting</string>
-    <string name="crear_celulares">Crear</string>
-    <string name="listar_celulares">Listar</string>
     <string name="numero">No.</string>
     <string name="marca">Marca</string>
     <string name="color">Color</string>
@@ -10,9 +8,17 @@
     <string name="titulo">CREAR CELULAR</string>
     <string name="guardar">Guardar</string>
     <string name="limpiar">Limpiar</string>
+    <string name="crear_celulares">Crear</string>
+    <string name="listar_celulares">Listar</string>
+    <string name="reporte1">R1 - Samsung con RAM de 2 a 4 GB</string>
+    <string name="reporte2">R2 - iPhone negros</string>
+    <string name="reporte3">R3 - Precio promedio de Nokia</string>
     <string-array name="opciones">
         <item>@string/crear_celulares</item>
         <item>@string/listar_celulares</item>
+        <item>@string/reporte1</item>
+        <item>@string/reporte2</item>
+        <item>@string/reporte3</item>
     </string-array>
     <string name="negro">Negro</string>
     <string name="rojo">Rojo</string>
