@@ -14,4 +14,15 @@ public class ExampleUnitTest {
     public void addition_isCorrect() throws Exception {
         assertEquals(4, 2 + 2);
     }
+
+    /*public void addition_2(){
+        Celular c = new Celular("Nokia","Negro",1.5,200000);
+        Celular c1 = new Celular("Nokia","Blanco",1.5,100000);
+        Celular c2 = new Celular("Nokia","Blanco",1.5,50000);
+
+        Celular[] celulares = {c, c1, c2};
+        Celular[] masBaratos = {c, c1};
+
+        assertArrayEquals(masBaratos, Metodos.masBaratos(celulares));
+    }*/
 }
